@@ -31,12 +31,12 @@ const renderFoodDetail=food=>{
         <img class="img-fluid rounded" src="${food.strMealThumb}">
         <h4 class="h5 py-4 px-2 mb-0">${food.strMeal}</h4>
         <h3>Ingredients</h3>
-        <p class="h6 py-4 px-2 mb-0">${food.strMeasure1}, ${food.strIngredient1}</p>
-        <p class="h6 py-4 px-2 mb-0">${food.strMeasure2}, ${food.strIngredient2}</p>
-        <p class="h6 py-4 px-2 mb-0">${food.strMeasure3}, ${food.strIngredient3}</p>
-        <p class="h6 py-4 px-2 mb-0">${food.strMeasure4}, ${food.strIngredient4}</p>
-        <p class="h6 py-4 px-2 mb-0">${food.strMeasure5}, ${food.strIngredient5}</p>
-        <p class="h6 py-4 px-2 mb-0">${food.strMeasure6}, ${food.strIngredient6}</p>
+        <li class="h6 py-4 px-2 mb-0">${food.strMeasure1}, ${food.strIngredient1}</li>
+        <li class="h6 py-4 px-2 mb-0">${food.strMeasure2}, ${food.strIngredient2}</li>
+        <li class="h6 py-4 px-2 mb-0">${food.strMeasure3}, ${food.strIngredient3}</li>
+        <li class="h6 py-4 px-2 mb-0">${food.strMeasure4}, ${food.strIngredient4}</li>
+        <li class="h6 py-4 px-2 mb-0">${food.strMeasure5}, ${food.strIngredient5}</li>
+        <li class="h6 py-4 px-2 mb-0">${food.strMeasure6}, ${food.strIngredient6}</li>
         </div>`
         foodDiv.style.display='block'; 
 }
